@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c0c0c0" >
+    
+   <LinearLayout
+       android:id="@+id/s123"
+       android:layout_width="fill_parent"
+       android:layout_height="265dp"
+       android:orientation="horizontal" >
+   
+     </LinearLayout>
+ 
+   <LinearLayout
+       android:id="@+id/s234"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+
+ 	  <Button
+       android:id="@+id/button15"
+       android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:text="红色"
+       android:textSize="15pt" /> 
+       
+ 	  <Button
+       android:id="@+id/button16"
+       android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:text="蓝色"
+       android:textSize="15pt" /> 
+        	  
+ 	  <Button
+       android:id="@+id/button17"
+       android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:text="黄色"
+       android:textSize="15pt" /> 
+     </LinearLayout> 
+     
+   	<LinearLayout
+        android:id="@+id/s345"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">    
+     <Button
+       android:id="@+id/button8"
+       android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:text="返回"
+       android:textSize="15pt" />  
+   </LinearLayout>
+</LinearLayout>

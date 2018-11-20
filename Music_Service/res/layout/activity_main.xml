@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/l1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:id="@+id/l21"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">   
+     <TextView
+         android:id="@+id/text1"
+         android:gravity="center"
+         android:background="#87cefa"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:textSize="16pt"
+         android:text="Android课程设计" />
+     </LinearLayout>
+    
+    <TableLayout
+        android:id="@+id/l22"
+        android:layout_width="fill_parent"
+        android:layout_height="132dp"
+        android:background="#c0c0c0"
+        android:stretchColumns="0,1" >
+     
+     <TableRow>
+     <TextView
+         android:id="@+id/fd"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:textSize="10pt"
+         android:text="学院"/>
+     <TextView
+         android:id="@+id/fd1"
+         android:layout_width="wrap_content"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center_horizontal"
+         android:textSize="10pt"
+         android:text="电子与信息工程学院"/>
+     </TableRow>   
+     
+     <TableRow>
+     <TextView
+         android:id="@+id/text2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:textSize="10pt"
+         android:text="姓名"/>
+     <TextView
+         android:id="@+id/text3"
+         android:layout_width="wrap_content"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center_horizontal"
+         android:textSize="10pt"
+         android:text="杜洁婷"/>
+     </TableRow>
+     
+     <TableRow>
+          <TextView
+         android:id="@+id/text4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:textSize="10pt"
+         android:text="学号"/>
+     <TextView
+         android:id="@+id/text5"
+         android:layout_width="wrap_content"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center_horizontal"
+         android:textSize="10pt"
+         android:text="201511612205"/>
+     </TableRow>
+     
+     <TableRow>
+          <TextView
+         android:id="@+id/text6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:textSize="10pt"
+         android:text="班级"/>
+     <TextView
+         android:id="@+id/text7"
+         android:layout_width="wrap_content"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center_horizontal"
+         android:textSize="10pt"
+         android:text="通信1152"/>
+     </TableRow>
+	 </TableLayout>
+ 
+      <LinearLayout
+          android:id="@+id/l123"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_weight="1"
+          android:orientation="horizontal" >
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:layout_gravity="center_horizontal"
+              android:text="音乐"
+              android:textSize="12pt" />
+
+          <Button
+              android:id="@+id/button2"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:layout_gravity="center_horizontal"
+              android:text="广播"
+              android:textSize="12pt" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:id="@+id/l456"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_weight="1"
+          android:orientation="horizontal" >
+
+          <Button
+              android:id="@+id/button3"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:layout_gravity="center_horizontal"
+              android:text="联系人"
+              android:textSize="12pt" />
+
+          <Button
+              android:id="@+id/button4"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:layout_gravity="center_horizontal"
+              android:text="背景变换"
+              android:textSize="12pt" />
+      </LinearLayout>
+      
+
+</LinearLayout>
